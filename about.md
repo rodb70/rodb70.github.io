@@ -32,8 +32,8 @@ a number of external tools that are capable of doing this, having used many of t
 project.  Instead a smaller system that is based around the [kconfig] system used in a 
 number of open source projects.  Using this and GNU make a system was quickly put together that is
 retargetable and able to create a very small root file systems without much effort.  This system
-uses [busybox] for the shell and all core Linux applications. Then using [udev] for auto-mounting
-of USB disks and IP network connection via RNDIS devices [udev] scripts to keep the size down.
+uses [busybox] for the shell and all core Linux applications. Then using udev for auto-mounting
+of USB disks and IP network connection via RNDIS devices udev scripts to keep the size down.
 
 [Buildroot]: http://buildroot.uclibc.org/
 [Open Embedded]: http://openembedded.org/index.php/Main_Page
@@ -41,19 +41,17 @@ of USB disks and IP network connection via RNDIS devices [udev] scripts to keep 
 [OpenWRT]: https://openwrt.org/
 [kconfig]: http://www.kernel.org/doc/Documentation/kbuild/kconfig-language.txt
 [busybox]: http://www.busybox.net/
-[udev]: http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
 
 ### HTTP Firmware upgrade
 
 One requirement of this project was the ability to firmware upgrade over a wireless link and via a 
 USB DISK in the factory.  Once the initial system was created with [busybox] the httpd daemon was added
 to this configuration to enable firmware to be pushed to the system using an http post message.  
-The system would then replace the main image root file system and the Linux kernel.  Again [udev]
+The system would then replace the main image root file system and the Linux kernel.  Again udev
 scripts were enhanced to perform the network connectivity and prompt firmware upgrade on USB disk
 insertion.
 
 [busybox]: http://www.busybox.net/
-[udev]: http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
 
 ### LPC9XX ISP to ICP bridge
 
