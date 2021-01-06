@@ -12,7 +12,7 @@ Specialising in device drivers, boot loaders, BSP, and build systems.
 
 ## Experience
 
-Below are some of the projects and technologies that we worked with.
+Below are some of the projects and technologies that was worked with.
 
 ### Olimex l9260 simple ADC driver
 
