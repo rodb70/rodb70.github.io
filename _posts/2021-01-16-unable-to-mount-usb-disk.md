@@ -6,7 +6,7 @@ tags: Linux, Mint Linux 20, Cinnamon, chrome-remote-desktop
 
 ## Not authorized to perform operation
 
-I have just pluged a USB flash disk into my mint linux install and it si now telling me I an not authorized to do this.
+I have just pluged a USB flash disk into my mint linux install and it is now telling me I am not authorized to do this.
 However it worked yseterday.
 
 I also have installed chrome remote desktop
